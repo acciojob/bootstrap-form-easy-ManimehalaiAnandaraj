@@ -1,2 +1,10 @@
 
 /* Your CSS Code here. */
+.internship-form{
+	margin:0px;
+	padding:20px;
+}
+.btn{
+	background-color:black;
+	color:white;
+}
