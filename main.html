@@ -15,39 +15,45 @@
 		<div class="row">
 			<div> <label for="first-name-input">First Name</label>
 				<input type="text" id="first-name-input" required>
-		</div><br>
+				<div class="invalid-feedback">Please enter your first name</div>
+		</div>
 					
 			<div> <label for="last-name-input">Last Name</label>
 				<input type="text" id="last-name-input" required>
-		</div><br>
+				<div class="invalid-feedback">Please enter your last name</div>
+		</div>
 
 			<div> <label for="email-input">Email Address</label>
 				<input type="email" id="email-input" name="email-input" required placeholder="asdsf@gmail.com">
-		</div></div><br>
+				<div class="invalid-feedback">Please enter your email address</div>
+		</div></div>
 			<div class="row">
 			<div> <label for="college-input">College</label>
 				<input type="text" id="college-input" required>
-		</div><br>
+				<div class="invalid-feedback">Please enter your college name</div>
+		</div>
 
-			<div> <label > Graduation Year</label>
-				<select >
+			<div> <label for="graduation-year-input"> Graduation Year</label>
+				<select id="graduation-year-input">
 					<option>Choose</option>
 					<option>2020</option>
 					<option>2021</option>
 					<option>2022</option>
 					<option>2023</option>
 				</select>
-		</div><br>
+		</div>
 			<div class="row">
 			<div> <label for="roll-no-input">Roll No</label>
 				<input type="text" id="roll-no-input" required>
-		</div></div><br>
+				<div class="invalid-feedback">Please enter your roll no</div>
+		</div></div>
 				<div class="row">															<div class="form">
 			<div> <label for="conditions-checkbox">Agree to terms and conditions</label>
 				<input type="checkbox" id="conditions-checkbox" required>
+				<div class="invalid-feedback">Please tik check box</div>
 		</div></div>
-					<div class="form">
-						<div><button type="button" class="btn">Submit form</button></div>
+					<div class="row">
+						<div><button type="submit" class="btn">Submit form</button></div>
 					</div>
 					
 	</div>
