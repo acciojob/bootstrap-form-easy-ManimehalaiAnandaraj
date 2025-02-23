@@ -1,5 +1,12 @@
 
 /* Your CSS Code here. */
+*{
+	margin:auto;
+	
+}
+h1{
+	text-align:center;
+}
 .internship-form{
 	margin:0px;
 	padding:20px;
