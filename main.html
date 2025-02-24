@@ -11,51 +11,57 @@
 	<!-- the entire body must be written by student -->
 	<div><h1>Internship Form</h1></div>
 	<div class="internship-form">
-		
+		<form>
 		<div class="row">
-			<div> <label for="first-name-input">First Name</label>
+			<div class="col">
+			 <label for="first-name-input">First Name</label>
 				<input type="text" id="first-name-input" required>
 				<div class="invalid-feedback">Please enter your first name</div>
 		</div>
-					
-			<div> <label for="last-name-input">Last Name</label>
+				<div class="col">	
+			 <label for="last-name-input">Last Name</label>
 				<input type="text" id="last-name-input" required>
 				<div class="invalid-feedback">Please enter your last name</div>
 		</div>
-
-			<div> <label for="email-input">Email Address</label>
+        <div class="col">
+			 <label for="email-input">Email Address</label>
 				<input type="email" id="email-input" name="email-input" required placeholder="asdsf@gmail.com">
 				<div class="invalid-feedback">Please enter your email address</div>
 		</div></div>
 			<div class="row">
-			<div> <label for="college-input">College</label>
+				<div class="col">
+			 <label for="college-input">College</label>
 				<input type="text" id="college-input" required>
 				<div class="invalid-feedback">Please enter your college name</div>
 		</div>
-
-			<div> <label for="graduation-year-input"> Graduation Year</label>
-				<select id="graduation-year-input">
+		<div class="col">
+			<label for="graduation-year-input"> Graduation Year</label>
+				<select id="graduation-year-input" class="form-control">
 					<option>Choose</option>
 					<option>2020</option>
 					<option>2021</option>
 					<option>2022</option>
 					<option>2023</option>
 				</select>
-		</div>
+		</div></div>
 			<div class="row">
-			<div> <label for="roll-no-input">Roll No</label>
+				<div class="col">
+			 <label for="roll-no-input">Roll No</label>
 				<input type="text" id="roll-no-input" required>
 				<div class="invalid-feedback">Please enter your roll no</div>
 		</div></div>
-				<div class="row">															<div class="form">
-			<div> <label for="conditions-checkbox">Agree to terms and conditions</label>
+			
+				<div class="row">
+					<div class="col">
+			 <label for="conditions-checkbox">Agree to terms and conditions</label>
 				<input type="checkbox" id="conditions-checkbox" required>
-				<div class="invalid-feedback">Please tik check box</div>
+				<div class="invalid-feedback">Please tick checkbox</div>
 		</div></div>
 					<div class="row">
-						<div><button type="submit" class="btn">Submit form</button></div>
+						<div class="col">
+		<button type="submit" class="btn">Submit form</button></div>
 					</div>
-					
+		</form>			
 	</div>
     <script type="text/javascript" src="./script.js">
 </script>
